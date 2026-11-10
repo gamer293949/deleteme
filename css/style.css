@@ -1,0 +1,10 @@
+.hi{
+    animation: best 3s ease-in-out infinite alternate;
+    color: rebeccapurple;
+    background-color: aliceblue;
+} 
+@keyframes best {
+    0% {transform: translateX(0); transform: translateY(0);}
+    50% {transform: translateY(10px); transform: translateX(100px);}
+    100% {transform: translateY(100px); transform: translateX(10px);}
+}
